@@ -7,6 +7,7 @@ body {
   line-height: 1.5;
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: #f2f7f6;
 }
 
 h1 {
@@ -37,7 +38,7 @@ p {
 
 #header {
 	display: inline-block;
-	background-color: #ffffff;
+	background-color: #transparent ;
 	text-align: center;
 	top: 0;
 	width: 100%;
@@ -46,14 +47,14 @@ p {
 
 #main {
 	display: inline-block;
-	background-color: #ffffff;
+	background-color: #transparent ;
 	width: 100%;
 }
 
 #footer {
 	display: inline-block;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #transparent ;
 	text-align: center;
 	margin-top: 64px;
 }
@@ -66,5 +67,14 @@ p {
 				background-color: #333;
 				text-decoration: none;
 				font-weight: 500;
+				line-height: 19px;
+}
+
+.in_text_link_style {
+				text-decoration: none;
+				font-size: 11;
+				border-radius: 3px;
+				color: #8fbcc9;
+				font-weight: 370;
 				line-height: 19px;
 }
